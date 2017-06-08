@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my script</title>
+	<script type="text/javascript">
+		
+perfectNumber = 69;
+
+
+function checkbutts (numButts)
+{
+	if (numButts == perfectNumber) 
+	{
+		alert("you slapped the perfect number of bootys ;)")
+
+	}
+	else if (numButts > perfectNumber)
+	{
+		alert("holy shit dude! chill")
+
+	}
+	else if (numButts < perfectNumber)
+	{
+
+		alert("come on man dont be a pussy.")
+	}
+	else
+	{
+
+		alert ("stop playin.")
+	}
+
+}
+
+
+
+
+	</script>
+</head>
+<body>
+	<h3>How many bootys did you slap?</h3>
+	<form method="POST" name="buttsForm" onsubmit="checkbutts(document.buttsForm.numButts.value);">
+		<input type="text" name="numButts" id="numButts">
+		<input type="Submit" name="Submit">
+
+	</form>
+
+</body>
+</html>
