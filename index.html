@@ -7,12 +7,39 @@
 		myName = "Joe";
 		foodType = "strawberrys";
 		numberEaten = 4;
-		numberTotal = 20;
+		numberTotal = 20 ;
 
-		myStatement = myName + " ate " + numberEaten + ' ' + foodType + ' ' + ", leaving " + (numberTotal - numberEaten) + " " + foodType + " left over. ";
+		myArray = new Array ("Joe", "Stewie", "Christina", "Chris");
 
-		alert(myStatement);
+		for (i = 0; i < myArray.length; i++)
+		{
+			//alert(myArray[i] + " ate " +  ( numberTotal - i )  +" " + (  foodType  ) + ".");
+
+			if ((numberTotal-i) >18) {
+
+				alert(myArray[i] + " ate " +  ( numberTotal - i )  + " " + (  foodType  ) + ".");
+
+
+}
+
+			else if ((numberTotal-i)==18){
+
+		alert(myArray[i] + " ate the perfect number of " + (numberTotal-i ) + " " + (foodType) + ".");
+	}
+
+
+
+			else
+			{
+				alert(myArray[i] +  " didnt eat enough strawberrys ");
+			}
+}
+		
+		 
+	
+
 	</script>
+		
 </head>
 <body>
 
