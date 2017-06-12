@@ -1,0 +1,21 @@
+body {
+	width:98%;
+	min-width: 900px;
+	max-width: 1050px;
+	font-family: verdana, Times, Sans-Serif;
+	font-weight: normal;
+	font-size: 16px;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+#mainContainer{
+	width: 100%
+	background-image: url(images/bokeh.jpg);
+}
+
+#headerIMG{
+	width: 100%;
+	height:225px;
+
+}
